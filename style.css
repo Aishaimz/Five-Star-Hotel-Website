@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(hotel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+}
+.main ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.main ul li a{
+    text-decoration: none;
+    color:mintcream;
+    text-transform: uppercase;
+}
+.main ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#009688;
+    position:absolute;
+    left: 0;
+    bottom: 10px;
+
+}
+.content{
+    width: 100%;
+    position:absolute;
+    top: 40%;
+    transform: translate(-5%);
+    text-align:center;
+    color:wheat;
+}
+.content h1{
+    font-size: 60px;
+    color: yellow;
+}
+.content p{
+    font-size:25px ;
+    color:black;
+}
+button{
+    width: 200px;
+    padding:14px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid white;
+    background:transparent;
+    color:black;
+    cursor:pointer;
+    color:black;
+    font-style: bold;
+    cursor:pointer;
+}
+.section{
+    color:blue;
+    background-color:grey;
+    width: 110%;
+    height: 300px;
+}
+.section h1{
+    font-size:40px;
+    color:black;
+}
+.section p{
+    font-size: 20px;
+    text-align:center;
+    color:black;
+}
+img{
+    width:500px;
+    height:300px;
+    float:left;
+    padding: 0 10px;
+}
+.abt{
+    background-color:grey;
+    width: 100%;
+    height: 340px;
+    padding:0px;
+
+}
+.abtw{
+    padding: 10px;
+}
+.abt h1{
+    color:yellow;
+    font-size: 45px;
+    padding: 20px;
+}
+.abt p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color:midnightblue;
+}
+.abtw img{
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    padding-left: 20px;
+}
+.cont img{
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    padding:5px;
+}
+.cont p{
+    font-size: 20px;
+    padding:25px;
+    background-color: orangered;
+    height:108px;
+}
+.cont{
+    padding:20px;
+}
+.sample{
+    padding:20px;
+}
+.sample img{
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    padding:5px;
+}
+.sample p{
+    font-size: 20px;
+    padding:20px;
+    background-color: orangered;
+    height:110px;
+}
+.footer{
+    height: 100%;
+    width: 97%;
+    padding:20px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center; 
+}
+.form h1{
+    color: orangered;
+    padding: 20px;
+}
+.form p{
+    padding: 20px;
+    font-size: large;
+}
+.form form{
+    padding: 20px;
+    font-size: large;
+    
+}
+#footer{
+    position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            background: black;
+            text-align: center;
+            color: blanchedalmond;
+}
+.form label{
+    display: block; 
+    padding: 10px;
+    width: 200px;
+}
+.Contact ul{
+        list-style-type: none;
+        background-color: darkgrey;
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        text-align: right;
+}
+.Contact ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+}
+.Contact ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#009688;
+    position:absolute;
+    left: 0;
+    bottom: 10px;
+}
+.Contact ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+.Contact ul{
+    list-style-type: none;
+    background-color: darkgrey;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    text-align: right;
+}
+.about ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.about ul li a{
+text-decoration: none;
+color:white;
+text-transform: uppercase;
+}
+.about{
+    padding:20px;
+}
+.about ul{
+    list-style-type: none;
+        background-color: black;
+        width:100%;
+        height: 50%;
+        padding: 10px;
+        text-align: right;
+}
